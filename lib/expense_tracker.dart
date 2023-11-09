@@ -13,7 +13,13 @@ class _ExpenseTrackerState extends State<ExpenseTracker>{
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text("Expense Tracker App"),
+        child: Column(
+          children: [
+            Text('Expense'),
+            Text('Management'),
+            Text('Tracker')
+          ],
+        ),
       ),
     );
   }
